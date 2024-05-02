@@ -56,7 +56,7 @@ for (let x = 10; x >= 1; x-- ){
 let array = [1,2,3,4,5,6,7,8,20,30];
 let sum = 0;
 
-for (i = 0; i <= array.length; i++){
+for (i = 0; i < array.length; i++){
     sum += array[i];
     console.log(sum);
 }
@@ -97,3 +97,4 @@ for (i = 0; i <= 4; i++){
 //     Используйте цикл for...in, чтобы перебрать ключи и значения объекта и вывести их в консоль.
 
 // НЕ ЗНАЮ КАК ДЕЛАТЬ
+console.log([1, 6, 11, 87, 22, 555, 2, 89,4].sort((a,b)=> a - b))
